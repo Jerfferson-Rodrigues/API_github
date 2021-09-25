@@ -3,7 +3,7 @@
     <img alt="" title="" src="public/github/git.png" />
 </h1>
 
-:writing_hand:📚	
+:writing_hand:📚 	
 
 ##  :hammer_and_wrench: Tecnologias :
 
