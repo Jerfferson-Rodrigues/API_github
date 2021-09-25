@@ -11,23 +11,19 @@ body {
   background: #141c2f;
 }
 
-:root {
-  --color-background-one: #141c2f;
-  --color-background-two: #1f2a48;
-  --color-button: #2a78cb;
-  --white-text: #faffff;
+a {
+  text-decoration: none;
+  color: #fff;
+  height: 45px;
 }
-.container {
-  width: 100vw;
-  height: 100vh;
-  background: var(--color-background-one);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+h1 {
+  color: #fff;
+  font-size: 20px;
+  margin: 20px;
 }
-.topo {
-  padding: 50px;
-  /* display: flex;
-  justify-content: center; */
+p {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  margin-bottom: 10px;
 }
