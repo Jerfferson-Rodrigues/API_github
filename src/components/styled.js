@@ -18,7 +18,7 @@ export const Input = styled.input`
     color: #fff;
     font-size: 16px;
     line-height: 40px;
-    width: 400px;
+    width: 100%;
 
     &::placeholder{
         color: #fff;
@@ -43,13 +43,22 @@ export const Btn = styled.button`
 `
 
 export const Box = styled.div`
-    width: 600px;
-    height: 320px;
+    width: 100%;
+    height: auto;
     display: grid;
     grid-template-columns: max-content 1fr;
     align-items: center;
     background: #1f2a48;
-    border-radius: 15px
+    border-radius: 15px;
+
+   @media(max-width: 500px) {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+  }   
+    
 `
 
 export const Img = styled.img`
@@ -58,10 +67,20 @@ export const Img = styled.img`
     width: 100px;
     heigth: 100px;
     border-radius: 50%;
+
+    @media(max-width: 500px) {
+        margin-bottom: 0;
+  } 
 `
 
 export const Infor = styled.div`
     font-family: sans-serif;
+
+     @media(max-width: 500px) {
+         padding: 20px;
+        width: 80%;
+        align-items:center;
+  } 
 `
 
 export const SubTitle = styled.h2`
@@ -71,13 +90,17 @@ export const SubTitle = styled.h2`
 `
 export const Bio = styled.p`
     color: #bfbfbf;
-    width: 300px;
+    width: 80%;
     font-size: .7rem;
     margin-top: 0;
     margin-bottom: 20px;
+
+    @media(max-width: 500px) {
+        width:100%;
+  } 
 `
 export const BoxInfo = styled.div`
-    width: 390px;
+    width: 85%;
     height: 60px;
     padding-top: .5rem;
     border-radius: 15px;
@@ -85,6 +108,10 @@ export const BoxInfo = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    @media(max-width: 500px) {
+        width: 100%;
+  } 
 `
 export const Span = styled.span`
     font-size: 10px;
