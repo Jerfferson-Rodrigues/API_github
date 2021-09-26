@@ -43,7 +43,7 @@ export const Btn = styled.button`
 `
 
 export const Box = styled.div`
-    width: 100%;
+    width: 590px;
     height: auto;
     display: grid;
     grid-template-columns: max-content 1fr;
